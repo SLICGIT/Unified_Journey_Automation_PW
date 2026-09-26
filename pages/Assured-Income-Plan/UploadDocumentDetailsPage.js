@@ -1,4 +1,4 @@
-123const {
+const {
     expect
 } = require('@playwright/test');
 
