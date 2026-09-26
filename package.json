@@ -1,0 +1,35 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "AIP": "cross-env PROJECT_NAME=Assured-Income-Plan playwright test tests/Assured-Income-Plan/EndToEnd.spec.js --headed",
+    "SPSPP" : "cross-env PROJECT_NAME=SP-Smart-Protection-Plan playwright test tests/SP-Smart-Protection-Plan/EndToEnd.spec.js --headed",
+    "SPP": "cross-env PROJECT_NAME=Smart-Protection-Plan playwright test tests/Smart-Protection-Plan/EndToEnd.spec.js --headed",
+    "FPP": "cross-env PROJECT_NAME=Family-Protection-Plan playwright test tests/Family-Protection-Plan/EndToEnd.spec.js --headed",
+    "SULP": "cross-env PROJECT_NAME=Sunishchit-Laabh-Plan playwright test tests/Sunishchit-Laabh-Plan/EndToEnd.spec.js --headed", 
+   
+    "SLP": "cross-env PROJECT_NAME=New-Shri-Life-Plan playwright test tests/New-Shri-Life-Plan/EndToEnd.spec.js --headed",
+    "PAB": "cross-env PROJECT_NAME=Premier-Assured-Benefit playwright test tests/Premier-Assured-Benefit/EndToEnd.spec.js --headed",
+    "ASP": "cross-env PROJECT_NAME=Assured-Savings-Plan playwright test tests/Assured-Savings-Plan/EndToEnd.spec.js --headed",
+    "NSV": "cross-env PROJECT_NAME=New-Shri-Vidya playwright test tests/New-Shri-Vidya/EndToEnd.spec.js --headed",
+    "ECP": "cross-env PROJECT_NAME=Early-Cash-Plan playwright test tests/Early-Cash-Plan/EndToEnd.spec.js --headed",
+    "SCP": "cross-env PROJECT_NAME=POS-Smart-Choice-Plan playwright test tests/POS-Smart-Choice-Plan/EndToEnd.spec.js --headed",
+    "FSP": "cross-env PROJECT_NAME=Flexi-Shield-Plan playwright test tests/Flexi-Shield-Plan/EndToEnd.spec.js --headed"
+    
+  },
+  " ": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1", 
+    "cross-env": "^10.1.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
